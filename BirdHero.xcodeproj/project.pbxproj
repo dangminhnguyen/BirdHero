@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C61B963921280F31008E46BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C61B963821280F31008E46BC /* AppDelegate.m */; };
+		C61B963C21280F31008E46BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61B963B21280F31008E46BC /* ViewController.m */; };
+		C61B963F21280F31008E46BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61B963D21280F31008E46BC /* Main.storyboard */; };
+		C61B964121280F33008E46BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61B964021280F33008E46BC /* Assets.xcassets */; };
+		C61B964421280F33008E46BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61B964221280F33008E46BC /* LaunchScreen.storyboard */; };
+		C61B964721280F33008E46BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C61B964621280F33008E46BC /* main.m */; };
+		C61B965121280F33008E46BC /* BirdHeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C61B965021280F33008E46BC /* BirdHeroTests.m */; };
+		C61B965C21280F33008E46BC /* BirdHeroUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C61B965B21280F33008E46BC /* BirdHeroUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C61B964D21280F33008E46BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61B962C21280F31008E46BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61B963321280F31008E46BC;
+			remoteInfo = BirdHero;
+		};
+		C61B965821280F33008E46BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61B962C21280F31008E46BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61B963321280F31008E46BC;
+			remoteInfo = BirdHero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C61B963421280F31008E46BC /* BirdHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61B963721280F31008E46BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C61B963821280F31008E46BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C61B963A21280F31008E46BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C61B963B21280F31008E46BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C61B963E21280F31008E46BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C61B964021280F33008E46BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C61B964321280F33008E46BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C61B964521280F33008E46BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61B964621280F33008E46BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C61B964C21280F33008E46BC /* BirdHeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdHeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61B965021280F33008E46BC /* BirdHeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdHeroTests.m; sourceTree = "<group>"; };
+		C61B965221280F33008E46BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61B965721280F33008E46BC /* BirdHeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdHeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61B965B21280F33008E46BC /* BirdHeroUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdHeroUITests.m; sourceTree = "<group>"; };
+		C61B965D21280F33008E46BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C61B963121280F31008E46BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61B964921280F33008E46BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61B965421280F33008E46BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C61B962B21280F31008E46BC = {
+			isa = PBXGroup;
+			children = (
+				C61B963621280F31008E46BC /* BirdHero */,
+				C61B964F21280F33008E46BC /* BirdHeroTests */,
+				C61B965A21280F33008E46BC /* BirdHeroUITests */,
+				C61B963521280F31008E46BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C61B963521280F31008E46BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C61B963421280F31008E46BC /* BirdHero.app */,
+				C61B964C21280F33008E46BC /* BirdHeroTests.xctest */,
+				C61B965721280F33008E46BC /* BirdHeroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C61B963621280F31008E46BC /* BirdHero */ = {
+			isa = PBXGroup;
+			children = (
+				C61B963721280F31008E46BC /* AppDelegate.h */,
+				C61B963821280F31008E46BC /* AppDelegate.m */,
+				C61B963A21280F31008E46BC /* ViewController.h */,
+				C61B963B21280F31008E46BC /* ViewController.m */,
+				C61B963D21280F31008E46BC /* Main.storyboard */,
+				C61B964021280F33008E46BC /* Assets.xcassets */,
+				C61B964221280F33008E46BC /* LaunchScreen.storyboard */,
+				C61B964521280F33008E46BC /* Info.plist */,
+				C61B964621280F33008E46BC /* main.m */,
+			);
+			path = BirdHero;
+			sourceTree = "<group>";
+		};
+		C61B964F21280F33008E46BC /* BirdHeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				C61B965021280F33008E46BC /* BirdHeroTests.m */,
+				C61B965221280F33008E46BC /* Info.plist */,
+			);
+			path = BirdHeroTests;
+			sourceTree = "<group>";
+		};
+		C61B965A21280F33008E46BC /* BirdHeroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C61B965B21280F33008E46BC /* BirdHeroUITests.m */,
+				C61B965D21280F33008E46BC /* Info.plist */,
+			);
+			path = BirdHeroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C61B963321280F31008E46BC /* BirdHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61B966021280F33008E46BC /* Build configuration list for PBXNativeTarget "BirdHero" */;
+			buildPhases = (
+				C61B963021280F31008E46BC /* Sources */,
+				C61B963121280F31008E46BC /* Frameworks */,
+				C61B963221280F31008E46BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirdHero;
+			productName = BirdHero;
+			productReference = C61B963421280F31008E46BC /* BirdHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C61B964B21280F33008E46BC /* BirdHeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61B966321280F33008E46BC /* Build configuration list for PBXNativeTarget "BirdHeroTests" */;
+			buildPhases = (
+				C61B964821280F33008E46BC /* Sources */,
+				C61B964921280F33008E46BC /* Frameworks */,
+				C61B964A21280F33008E46BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61B964E21280F33008E46BC /* PBXTargetDependency */,
+			);
+			name = BirdHeroTests;
+			productName = BirdHeroTests;
+			productReference = C61B964C21280F33008E46BC /* BirdHeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C61B965621280F33008E46BC /* BirdHeroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61B966621280F33008E46BC /* Build configuration list for PBXNativeTarget "BirdHeroUITests" */;
+			buildPhases = (
+				C61B965321280F33008E46BC /* Sources */,
+				C61B965421280F33008E46BC /* Frameworks */,
+				C61B965521280F33008E46BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61B965921280F33008E46BC /* PBXTargetDependency */,
+			);
+			name = BirdHeroUITests;
+			productName = BirdHeroUITests;
+			productReference = C61B965721280F33008E46BC /* BirdHeroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C61B962C21280F31008E46BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Agritele Company";
+				TargetAttributes = {
+					C61B963321280F31008E46BC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C61B964B21280F33008E46BC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C61B963321280F31008E46BC;
+					};
+					C61B965621280F33008E46BC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C61B963321280F31008E46BC;
+					};
+				};
+			};
+			buildConfigurationList = C61B962F21280F31008E46BC /* Build configuration list for PBXProject "BirdHero" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C61B962B21280F31008E46BC;
+			productRefGroup = C61B963521280F31008E46BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C61B963321280F31008E46BC /* BirdHero */,
+				C61B964B21280F33008E46BC /* BirdHeroTests */,
+				C61B965621280F33008E46BC /* BirdHeroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C61B963221280F31008E46BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61B964421280F33008E46BC /* LaunchScreen.storyboard in Resources */,
+				C61B964121280F33008E46BC /* Assets.xcassets in Resources */,
+				C61B963F21280F31008E46BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61B964A21280F33008E46BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61B965521280F33008E46BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C61B963021280F31008E46BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61B963C21280F31008E46BC /* ViewController.m in Sources */,
+				C61B964721280F33008E46BC /* main.m in Sources */,
+				C61B963921280F31008E46BC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61B964821280F33008E46BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61B965121280F33008E46BC /* BirdHeroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61B965321280F33008E46BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61B965C21280F33008E46BC /* BirdHeroUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C61B964E21280F33008E46BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61B963321280F31008E46BC /* BirdHero */;
+			targetProxy = C61B964D21280F33008E46BC /* PBXContainerItemProxy */;
+		};
+		C61B965921280F33008E46BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61B963321280F31008E46BC /* BirdHero */;
+			targetProxy = C61B965821280F33008E46BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C61B963D21280F31008E46BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61B963E21280F31008E46BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C61B964221280F33008E46BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61B964321280F33008E46BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C61B965E21280F33008E46BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C61B965F21280F33008E46BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C61B966121280F33008E46BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JYLV4E77F;
+				INFOPLIST_FILE = BirdHero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agritele.BirdHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C61B966221280F33008E46BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JYLV4E77F;
+				INFOPLIST_FILE = BirdHero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agritele.BirdHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C61B966421280F33008E46BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JYLV4E77F;
+				INFOPLIST_FILE = BirdHeroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agritele.BirdHeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdHero.app/BirdHero";
+			};
+			name = Debug;
+		};
+		C61B966521280F33008E46BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JYLV4E77F;
+				INFOPLIST_FILE = BirdHeroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agritele.BirdHeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdHero.app/BirdHero";
+			};
+			name = Release;
+		};
+		C61B966721280F33008E46BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JYLV4E77F;
+				INFOPLIST_FILE = BirdHeroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agritele.BirdHeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirdHero;
+			};
+			name = Debug;
+		};
+		C61B966821280F33008E46BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JYLV4E77F;
+				INFOPLIST_FILE = BirdHeroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agritele.BirdHeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirdHero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C61B962F21280F31008E46BC /* Build configuration list for PBXProject "BirdHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61B965E21280F33008E46BC /* Debug */,
+				C61B965F21280F33008E46BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61B966021280F33008E46BC /* Build configuration list for PBXNativeTarget "BirdHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61B966121280F33008E46BC /* Debug */,
+				C61B966221280F33008E46BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61B966321280F33008E46BC /* Build configuration list for PBXNativeTarget "BirdHeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61B966421280F33008E46BC /* Debug */,
+				C61B966521280F33008E46BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61B966621280F33008E46BC /* Build configuration list for PBXNativeTarget "BirdHeroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61B966721280F33008E46BC /* Debug */,
+				C61B966821280F33008E46BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C61B962C21280F31008E46BC /* Project object */;
+}
